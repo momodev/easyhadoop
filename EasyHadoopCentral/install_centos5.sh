@@ -50,6 +50,7 @@ chmod 777 /var/www/html/expect.py
 python NodeAgent.py -s start
 service httpd restart
 
+
 /usr/sbin/setsebool httpd_can_network_connect=1
 echo "/*************************************************************/"
 echo "Download Hadoop installation and runtime libaries complete."
